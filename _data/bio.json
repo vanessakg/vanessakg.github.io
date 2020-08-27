@@ -9,10 +9,10 @@
     "summary": "I am studying for a B.S. in Computer Science at Aurora University. I expect to graduate in Spring 2021.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "",
+      "city": "North Aurora",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "Illinois"
     },
     "profiles": [
       {
@@ -22,7 +22,7 @@
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
+        "username": "vanessagill",
         "url": "http://linkedin.com/in/changeme"
       },
       {
@@ -32,26 +32,24 @@
       },
       {
         "network": "instagram",
-        "username": "molly",
+        "username": "vkg_94",
         "url": "http://instagram.com/changeme"
       }
     ]
   },
   "interests": [
     {
-      "name": "Gaming",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "Python",
+      "name": "gaming",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "weather",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "internet of things",
       "keywords": [
       ]
     }
