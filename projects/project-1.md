@@ -1,16 +1,16 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/robotarm.jpg
+title: Robot Arm
+permalink: projects/robotarm
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2019-12-05
 labels:
   - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Raspberry Pi
+  - Python
+summary: My team developed a robotic arm that moves up, down, left, and right.
 ---
 
 <div class="ui small rounded images">
@@ -20,25 +20,9 @@ summary: My team developed a robotic mouse that won first place in the 2015 UH M
   <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+My team decided to make a robot arm for our Computer Architecture final. First, we 3D printed the parts, and then had one team member work on assembling the arm. A couple problems arose with the printed components. First, the holes were too small, so the person working on it used a dremel to make the holes larger. Some parts needed reprinting because they did not come out well. The materials we used to make the arm move were servos, screws, and joysticks. Originally, our robot arm had a gripper that would be able to pick things up, but the servo was not strong enough to make the arm grip. My job was to solder the wires on to the joysticks. It was my first time ever soldering something, so I learned something new. Another challenge came up with the joysticks, they would not connect with the pi and nobody could figure it out. We spent a great portion of our time trying to figure out the joysticks. Eventually, we coded a loop to just move the arm around without controls. We used Python on the Raspberry Pi and had to research how to use the libraries and how to program the joysticks. It was everyones first time using Raspberry Pi in my group so it was a learning experience for everyone. We had only a couple weeks to complete this project, so we did not get to fix everything we wanted to but it ended up being a great learning experience on all ends of the project.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
 
-Here is some code that illustrates how we read values from the line sensors:
-
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
 
 
 
