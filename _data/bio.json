@@ -78,7 +78,7 @@
       "institution": "Aurora University, Aurora, IL",
       "area": "Computer Science (expected Spring, 2021)",
       "studyType": "B.S.",
-      "startDate": "08-26-2019",
+      "startDate": "2019-08-26",
       "endDate": "Present",
       "gpa": "2.80",
       "courses": [
@@ -92,8 +92,8 @@
       "company": "Target",
       "position": "Flow Team in Logistics",
       "website": "",
-      "startDate": "01-2019",
-      "endDate": "05-2019",
+      "startDate": "2019-01-29",
+      "endDate": "2019-05-20",
       "summary": "Stocking a certain department in the store, helping customers find what they need, and using the cash register.",
       "highlights": [
         "Stocking, cash register, customer service",
@@ -104,8 +104,8 @@
       "company": "Oberweis Dairy Store",
       "position": "Shift Lead",
       "website": "",
-      "startDate": "04-2014",
-      "endDate": "10-2016",
+      "startDate": "2014-04-12",
+      "endDate": "2016-10-18",
       "summary": "Saw over employees and manage the store",
       "highlights": [
         "Store walkthrough, customer service, inventory, delegate tasks",
