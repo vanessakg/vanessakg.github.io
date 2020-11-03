@@ -29,23 +29,6 @@
       },
     ]
   },
-  "interests": [
-    {
-      "name": "Artificial Intelligence",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Weather",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Internet of Things",
-      "keywords": [
-      ]
-    }
-  ],
   "skills": [
     {
       "name": "Languages and Frameworks",
@@ -54,8 +37,7 @@
         "C#",
         "C++",
         "Java",
-        "Python", 
-        "Ruby on Rails",
+        "Python",
         "HTML/CSS",
       ]
     },
@@ -79,6 +61,7 @@
       "courses": [
         "Data Structures", "Software Engineering", "Database Design & Implement", 
         "Artificial Intelligence", "Computer Architecture", "Systems Analysis & Design",
+        "Data Structures & Algorithms"
       ]
     }
   ],
