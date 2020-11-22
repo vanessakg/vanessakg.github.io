@@ -38,16 +38,18 @@
         "C#",
         "C++",
         "Java",
-        "Python",
+        "Javascript",
         "HTML/CSS",
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Skills",
       "level": "",
       "keywords": [
-        "Windows",
-        "Git/GitHub",
+        "Experience with SOLID design",
+        "Exposure to various design patterns",
+        "Understanding of Node.js",
+        "Knowledge of MySQL",
       ]
     }
   ],
@@ -60,7 +62,7 @@
       "endDate": "Present",
       "gpa": "2.80",
       "courses": [
-        "Data Structures", "Software Engineering", "Database Design & Implement", 
+        "Web Appl", "Software Engineering", "Database Design & Implement", 
         "Artificial Intelligence", "Computer Architecture", "Systems Analysis & Design",
         "Data Structures & Algorithms"
       ]
